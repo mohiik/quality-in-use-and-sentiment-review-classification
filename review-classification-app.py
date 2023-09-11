@@ -11,7 +11,7 @@ import re
 import spacy
 import time
 import pickle
-from sklearn import model_selection, preprocessing, metrics, naive_bayes
+from sklearn import model_selection, preprocessing, naive_bayes
 from sklearn.feature_extraction.text import TfidfVectorizer
 from imblearn.over_sampling import SMOTE
 import streamlit as st
